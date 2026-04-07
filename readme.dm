@@ -1,4 +1,4 @@
-##  weather_bot by dhhghkd1
+#  weather_bot by dhhghkd1
 
 ## install
 pip install -r requirements.txt
