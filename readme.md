@@ -16,7 +16,7 @@
 create .env file and add your tokens:
 
 - bot=YOUR\_telegram\_token
-- api\_key=YOUR\_openweather\_api\_key
+- api\_key=YOUR\_weather\_api\_key
 
 ## run
 python weather\_bot.py
