@@ -1,12 +1,12 @@
 import os
-from datenv import load_dotenv
+from dotenv import load_dotenv
 import telebot
 import requests
 import json
 import sqlite3
 from telebot import types
 
-load.dotenv()
+load_dotenv()
 
 bot = telebot.TeleBot(os.getenv("bot"))
 api_key = os.getenv("api_key")
