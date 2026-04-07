@@ -12,9 +12,9 @@
     pip install -r requirements.txt
 
 ## configuration
-
-create .env file and add your tokens:
-
+1. get bot token from @BotFather in telegram(or any other bot api)
+2. get weather api key from openweathermap.org(or any other weather api)
+3. create .env file and add your tokens:
 - bot=YOUR\_telegram\_token
 - api\_key=YOUR\_weather\_api\_key
 
