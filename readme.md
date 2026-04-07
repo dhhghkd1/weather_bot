@@ -3,11 +3,10 @@
 ## install
 
 1. clone repo:
-    git clone https://github.com/dhhghkd1/weather\_bot.git
+    git clone https://github.com/dhhghkd1/weather_bot.git
 
 2. create venv & activate:
-    python -m venv venv
-    source venv/bin/activate
+    python -m venv venv && source venv/bin/activate
 
 3. install deps:
     pip install -r requirements.txt
@@ -16,8 +15,8 @@
 
 create .env file and add your tokens:
 
-bot=YOUR\_telegram\_token
-api\_key=YOUR\_openweather\_api\_key
+- bot=YOUR\_telegram\_token
+- api\_key=YOUR\_openweather\_api\_key
 
 ## run
 python weather\_bot.py
